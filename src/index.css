@@ -1,0 +1,252 @@
+@import url("https://fonts.cdnfonts.com/css/circular-std");
+@import url("https://fonts.cdnfonts.com/css/clash-display");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+.gradient-01 {
+  background: linear-gradient(
+    -150deg,
+    #15bffd00 0%,
+    #15bffd00 26%,
+    hsla(257, 69%, 86%, 0) 39%,
+    rgba(141, 0, 206, 0) 40%,
+    #ff008400 59%,
+
+    rgba(255, 0, 131, 0.5) 60%,
+    rgba(141, 0, 206, 0.5) 80%,
+    rgba(141, 0, 206, 0.5) 100%
+  );
+
+  filter: blur(100px);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #0077f8 0%, #00dcde 100%),
+    linear-gradient(0deg, #ffffff, #ffffff);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.bg-gray-gradient {
+  background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
+}
+
+.bg-discount-gradient {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.feature-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+.feedback-container .feedback-card:last-child {
+  margin-right: 0px;
+}
+
+.feedback-card {
+  background: transparent;
+}
+
+.feedback-card:hover {
+  background: var(--black-gradient);
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+.txt {
+  background: linear-gradient(
+      272.61deg,
+      #feed7a 43.38%,
+      #ff8400 70.17%,
+      #df91f7 98.11%
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.txtg{
+  background: linear-gradient(90deg, #8D00CE 0%, #FF0083 100%),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+.why {
+  background: radial-gradient(
+    163.01% 160.82% at 52.92% 167.2%,
+    #000000 77.8%,
+    #262629 99.14%
+  );
+transform: scaleX(1.2);
+  border-radius: 50% 50% 0 0/ 100% 100% 0 0;
+}
+.bgg{
+  background: rgba(23, 23, 23, 1);
+
+}
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa00 -43.27%,
+    #bef3f500 -21.24%,
+    #9dedf000 12.19%,
+    rgb(255, 0, 132) 29.82%,
+    rgb(255, 0, 132) 51.94%,
+    rgb(255, 0, 132) 90.29%
+  );
+  filter: blur(60px);
+
+}
+.bg-yellow-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa00 -43.27%,
+    #bef3f500 -21.24%,
+    #9dedf000 12.19%,
+    #FFB901 29.82%,
+    #FFB901 51.94%,
+    #FFB901 90.29%
+  );
+  filter: blur(60px);
+
+}
+.bg-bluee-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa00 -43.27%,
+    #bef3f500 -21.24%,
+    #9dedf000 12.19%,
+    #01D3E0 29.82%,
+    #01D3E0 51.94%,
+    #01D3E0 90.29%
+  );
+  filter: blur(60px);
+
+}
+.bg-yelloww-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa00 -43.27%,
+    #bef3f500 -21.24%,
+    #9dedf000 12.19%,
+    #B6F03A  29.82%,
+    #B6F03A 51.94%,
+    #B6F03A 90.29%
+  );
+  filter: blur(60px);
+
+}
+.bg-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa00 -43.27%,
+    #bef3f500 -21.24%,
+    #9dedf000 12.19%,
+    rgb(141, 0, 206)  29.82%,
+    rgba(255, 0, 132) 51.94%,
+    rgba(255, 0, 132, 0.5) 90.29%
+  );
+  filter: blur(100px);
+
+}
