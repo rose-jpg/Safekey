@@ -3,9 +3,9 @@ import { AiFillApple } from "react-icons/ai"
 import { IconContext } from "react-icons/lib"
 function Get() {
   return (
-    <div className='px-16 mt-48 '>
+    <div className='sm:px-16 px-4 sm:mt-48 mt-20 '>
       <div className='flex justify-center flex-col items-center mb-20 '>
-        <h1 className='text-[38px] text-white font-clash  font-semibold '>
+        <h1 className='text-[38px] text-white font-clash  font-semibold text-center '>
           Get <span className='text-gradient '>Safekey</span> for your device
         </h1>
 
@@ -14,12 +14,12 @@ function Get() {
           App Store
         </button>
       </div>
-      <div className='flex justify-between flex-row items-center mt-40 mb-48'>
-        <h2 className='text-white font-clash font-semibold w-[460px] text-[32px] '>
+      <div className='flex justify-between sm:flex-row flex-col  items-center sm:mt-40 sm:mb-48 mb-20 '>
+        <h2 className='text-white font-clash font-semibold sm:w-[460px] w-[380px] text-[32px] px-4 '>
           Elevate your crypto security with Safekey
         </h2>
         <div>
-          <div class='w-[622px] h-[55px] '>
+          <div class='sm:w-[622px] w-[100%] px-4 h-[55px] '>
             <div className='w-[100%] h-[100%]  rounded-[8px] pl-2 bg-[rgba(255,255,255,0.1)] flex items-center'>
               <label
                 for=''
@@ -33,7 +33,7 @@ function Get() {
              
          
               />
-              <input type="button" className="px-12 bg-white h-[100%] font-circular rounded-r-[8px] " value="Subscribe" />
+              <input type="button" className="sm:px-12 px-4 bg-white h-[100%] font-circular rounded-r-[8px] " value="Subscribe" />
             </div>
           </div>
         </div>

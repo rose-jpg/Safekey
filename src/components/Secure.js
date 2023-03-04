@@ -13,15 +13,15 @@ function Secure() {
        whileInView='show'
        viewport={{ once: false }}>
       
-      <div className='flex flex-row items-center  px-16 mt-10'>
+      <div className='flex flex-row items-center  sm:px-16 px-4 mt-10'>
         <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
         className='flex flex-col'>
-          <h1 className=' text-[66px] text-white font-clash  leading-[75px] font-semibold w-[570px]'>
-            Securely store and{" "}
+          <h1 className=' text-[40px] sm:text-[66px] text-white font-clash  leading-[50px] sm:leading-[75px] font-semibold w-[370px] sm:w-[570px]'>
+            Securely store and
             <span className='txtg'> manage your passwords</span> with Safekey
           </h1>
-          <p className=' text-white font-circular text-sm font-normal w-[540px]'>
+          <p className=' text-white font-circular sm:text-sm text-xs font-normal sm:w-[540px] w-[350px] sm:my-0 my-3'>
             For anyone looking to increase their online security and safeguard
             their accounts from potential threats, Safekey's password management
             feature is a useful tool.

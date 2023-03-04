@@ -15,27 +15,27 @@ function Whysafe() {
       <motion.div
       variants={fadeIn("up", "tween", 0.2, 1)}
       >
-      <div className='why w-[100%] h-[300px]   mt-48 z-[-10] flex justify-center flex-col items-center text-white font-clash  font-semibold'>
-          <h1 className='text-[38px]'>
+      <div className='why w-[100%] sm:h-[300px] h-[200px]   mt-48 z-[-10] flex justify-center flex-col items-center text-white font-clash  font-semibold'>
+          <h1 className='text-[28px] sm:text-[38px]'>
             Why <span className='text-gradient '>Safekey</span>{" "}
           </h1>
-          <p className='font-circular text-[16px]'>
+          <p className='font-circular text-[10px] sm:text-[16px]'>
             here are some reasons why you should go with Safekey
           </p>
         </div>
       </motion.div>
         <div className=''>
-          <ul className='flex justify-center items-center flex-wrap px-16 gap-[20px] '>
+          <ul className='flex justify-center items-center flex-wrap sm:px-16 sm:py-0  px-4 gap-[20px] '>
             {whySafeKey.map((items) => {
               return (
                 <li>
-                  <div className=' w-[600px] h-[600px] bgg relative text-white flex justify-center items-center flex-col'>
+                  <div className=' sm:w-[600px] sm:h-[600px] sm:mx-0  bgg relative text-white flex justify-center sm:py-0 py-4 items-center flex-col'>
                     <div className={`${items.cName}  absolute w-[40vw] h-[5%]  bottom-[70px]   z-[10]`} />
-                    <img className='mb-20' src={items.img} alt='' />
-                    <h1 className='font-clash font-semibold text-[42px]'>
+                    <img className='mb-20  sm:w-[106px] w-[80px]' src={items.img} alt='' />
+                    <h1 className='font-clash font-semibold text-[30px] sm:text-[42px]'>
                       {items.title}
                     </h1>
-                    <p className='text-[16px] w-[400px] text-center font-circular'>
+                    <p className='sm:text-[16px] text-[12px] sm:w-[400px] w-[100%] text-center font-circular'>
                       {items.subtitle}
                     </p>
                   </div>

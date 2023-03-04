@@ -9,7 +9,7 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div className=' w-full overflow-hidden   '>
+    <div className=' w-full  '>
       <Home />
       <Whysafe />
       <Secure />
