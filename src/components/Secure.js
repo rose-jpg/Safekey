@@ -13,11 +13,11 @@ function Secure() {
        whileInView='show'
        viewport={{ once: false }}>
       
-      <div className='flex flex-row items-center  sm:px-16 px-4 mt-10'>
+      <div className='flex sm:flex-row flex-col items-center  sm:px-16 px-4 mt-10'>
         <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
         className='flex flex-col'>
-          <h1 className=' text-[40px] sm:text-[66px] text-white font-clash  leading-[50px] sm:leading-[75px] font-semibold w-[370px] sm:w-[570px]'>
+          <h1 className=' text-[40px] sm:text-[66px] text-white font-clash  leading-[50px] sm:leading-[75px] font-semibold w-[350px] sm:w-[570px]'>
             Securely store and
             <span className='txtg'> manage your passwords</span> with Safekey
           </h1>
@@ -36,7 +36,7 @@ function Secure() {
         >
           <img src={hand} className='' alt='' />
           <img
-            className='absolute left-[206px] top-[78px]  z-10'
+            className='absolute sm:left-[206px] left-[120px] sm:top-[78px] top-[47px] sm:w-[305px] w-[172px]   z-10'
             src={screen}
             alt=''
             srcset=''

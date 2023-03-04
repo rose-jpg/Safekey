@@ -29,13 +29,13 @@ function Whysafe() {
             {whySafeKey.map((items) => {
               return (
                 <li>
-                  <div className=' sm:w-[600px] sm:h-[600px] sm:mx-0  bgg relative text-white flex justify-center sm:py-0 py-8 items-center flex-col'>
+                  <div className=' sm:w-[600px] sm:h-[600px] bgg relative text-white flex justify-center sm:py-0 py-8 items-center flex-col'>
                     <div className={`${items.cName}  absolute w-[40vw] h-[5%]  bottom-[70px]   z-[10]`} />
                     <img className='mb-20  sm:w-[106px] w-[80px]' src={items.img} alt='' />
                     <h1 className='font-clash font-semibold text-[30px] sm:text-[42px]'>
                       {items.title}
                     </h1>
-                    <p className='sm:text-[16px] text-[12px] sm:w-[400px] w-[100%] text-center font-circular'>
+                    <p className='sm:text-[16px] text-[12px] sm:w-[400px] w-[100%] text-center font-circular sm:px-0 px-10 '>
                       {items.subtitle}
                     </p>
                   </div>
