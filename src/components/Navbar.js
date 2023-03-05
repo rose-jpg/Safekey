@@ -17,8 +17,8 @@ function Navbar() {
           <div className='w-[100px]  sm:h-full sm:w-full'>
             <img src={Logo} alt='' />
           </div>
-          <div className='sm:hidden'>
-            <img src={menu} onClick={showSidebar} alt='' />
+          <div className='sm:hidden '>
+            <img src={menu} className="w-[23px]" onClick={showSidebar} alt='' />
           </div>
           <nav className='hidden sm:flex  items-center '>
             <ul className='sm:flex sm:flex-row gap-[74px] '>
@@ -49,7 +49,7 @@ function Navbar() {
               onClick={showSidebar}
             >
               <li className="flex justify-end ">
-                <AiOutlineClose className="text-white mt-10 " />
+                <AiOutlineClose className="text-white mt-10 text-[23px] " />
               </li>
               {navLinks.map((items) => {
                 return (
