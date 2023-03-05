@@ -13,19 +13,22 @@ function Navbar() {
           <img src={Logo} alt='' />
         </div>
 
-        <div className='hidden  sm:flex items-center gap-[74px]'>
-          <ul className=' flex gap-[74px]'>
+        <div className='sm:flex   items-center gap-[74px]'>
+          <ul className=' flex flex-col sm:flex-row gap-[74px]'>
             {navLinks.map((items) => {
               return (
                 <li key={items.id}>
                   <h4 className='text-white font-circular text-[16px] '>
                     {items.title}
                   </h4>
+         
                 </li>
+     
+                
               )
             })}
           </ul>
-          <button className='bg-white px-[21px] py-[9px] rounded-[12.6px] '>
+          <button className='sm:flex hidden bg-white px-[21px] py-[9px] rounded-[12.6px] '>
             Download
           </button>
         </div>

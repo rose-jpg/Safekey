@@ -1,5 +1,5 @@
 import React from "react"
-import hand from "../assets/hand.png"
+import hand from "../assets/hand phone.png"
 import screen from "../assets/screen.png"
 import { motion } from "framer-motion"
 import { staggerContainer, slideIn, fadeIn } from "../data/motion"
@@ -32,15 +32,10 @@ function Secure() {
         </motion.div>
         <motion.div
           variants={fadeIn("left", "tween", 0.2, 1)}
-          className='relative '
+          className=''
         >
           <img src={hand} className='' alt='' />
-          <img
-            className='absolute sm:left-[206px] left-[120px] sm:top-[78px] top-[47px] sm:w-[305px] w-[172px]   z-10'
-            src={screen}
-            alt=''
-            srcset=''
-          />
+        
         </motion.div>
       </div>
       </motion.div>
