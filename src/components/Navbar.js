@@ -13,18 +13,15 @@ function Navbar() {
           <img src={Logo} alt='' />
         </div>
 
-        <div className='sm:flex   items-center gap-[74px]'>
-          <ul className=' flex flex-col sm:flex-row gap-[74px]'>
+        <div className='hidden  sm:flex   items-center gap-[74px]'>
+          <ul className=' flex sm:flex-row gap-[74px]'>
             {navLinks.map((items) => {
               return (
                 <li key={items.id}>
                   <h4 className='text-white font-circular text-[16px] '>
                     {items.title}
                   </h4>
-         
                 </li>
-     
-                
               )
             })}
           </ul>
