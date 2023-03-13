@@ -48,10 +48,10 @@ export const whySafeKey = [
   {
 
     title: "Peace of Mind",
-    img:four,
+    img:one,
     cName:'bg-yelloww-gradient',
     subtitle:
-      "Users can use Safekey to reduce the risk of losing access to their digital assets and enjoy peace of mind knowing that their keys are securely stored and protected.",
+      "Users can use Safekey to reduce the risk of losing access to their digital assets and enjoy peace of mind knowing that their keys are securely stored and.",
   },
 ]
 

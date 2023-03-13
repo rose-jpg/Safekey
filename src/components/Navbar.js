@@ -13,7 +13,7 @@ function Navbar() {
       <div className='sm:mt-4 mt-5 relative flex-col  sm:flex-row flex justify-between items-center px-4 sm:px-16 mb-[50px] '>
         <div className='bg-gradient absolute w-[80%] h-[20vh] rotate-[-10deg]  -right-[6rem] top-[60px] z-[-10]' />
 
-        <div className='flex justify-between w-[100%] gap-[74px] '>
+        <div className='flex justify-between items-center w-[100%] gap-[74px] '>
           <div className='w-[100px]  sm:h-full sm:w-full'>
             <img src={Logo} alt='' />
           </div>

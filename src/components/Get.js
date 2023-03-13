@@ -3,8 +3,8 @@ import { AiFillApple } from "react-icons/ai"
 import { IconContext } from "react-icons/lib"
 function Get() {
   return (
-    <div className='sm:px-16 px-4 sm:mt-48 mt-20 '>
-      <div className='flex justify-center flex-col items-center mb-20 '>
+    <div className='sm:px-16 px-4  mt-20 '>
+      <div className='flex justify-center flex-col items-center  '>
         <h1 className='text-[38px] text-white font-clash leading-[40px] sm:leading-0 font-semibold text-center '>
           Get <span className='text-gradient '>Safekey</span> for your device
         </h1>
@@ -14,8 +14,8 @@ function Get() {
           App Store
         </button>
       </div>
-      <div className='flex justify-between sm:flex-row flex-col  items-center sm:mt-40 sm:mb-48 mb-20 '>
-        <h2 className='text-white font-clash font-semibold sm:w-[460px] w-[380px] leading-[40px] sm:leading-0 text-[32px] px-4 '>
+      <div className='flex justify-between sm:flex-row flex-col  items-center mt-10 mb-24  '>
+        <h2 className='text-white text-center font-clash font-semibold sm:w-[460px] w-[310px] leading-[40px] sm:leading-0 text-[32px] px-4 '>
           Elevate your crypto security with Safekey
         </h2>
         <div>

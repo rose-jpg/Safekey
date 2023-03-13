@@ -7,7 +7,7 @@ import youtube from "../assets/Youtube.png"
 function Footer() {
   return (
     <div>
-        <div className='flex justify-center items-center flex-col text-white mb-14 sm:mb-26'>
+        <div className='flex justify-center items-center flex-col text-white mb-8  '>
             <img src={Logo} alt="" />
             <p className='sm:mt-6 mt-3 mb-5'>© 2022 Safekey. All rights reserved.</p>
             <div className='flex gap-5'>
